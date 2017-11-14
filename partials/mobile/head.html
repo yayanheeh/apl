@@ -1,24 +1,6 @@
 
 <title>Bakolpulsa.com</title>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-  <style>
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-}
-</style>
-
-<div class="footer">
-  <p>Footer</p>
-</div>
- 
          <div class="tg_page_head">
   <div class="navbar navbar-static-bottom  navbar-inverse" role="navigation" ng-class="{navbar_peer_not_selected: !curDialog.peer, navbar_offline: offline, navbar_history_select: historyState.selectActions}">
     <div class="container">
@@ -36,8 +18,7 @@
           <li><a ng-click="openGroup()" my-i18n="head_new_group"></a></li>
           <li><a ng-click="importContact()" my-i18n="head_new_contact"></a></li>
           <li ng-if="!isEmpty.contacts"><a ng-click="openContacts()" my-i18n="head_contacts"></a></li>
-          <li><a ng-click="openSettings()" my-i18n="head_settings"></a></li><li><a onclick="document.getElementById('id01').style.display='block'" class="w3- w3-">Paduan</a></li>
-        <li><a onclick="document.getElementById('id01').style.display='block'" class="w3- w3-">Paduan2</a></li>
+          <li><a ng-click="openSettings()" my-i18n="head_settings"></a></li>
     
             <li><a ng-click="logOut()" my-i18n="head_log_out"></a></li>
         </ul>
@@ -137,19 +118,7 @@
     </div>
   </div>
 </div>
- 
 
-<div id="id01" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal"> 
-        <span onclick="document.getElementById('id01').style.display='none'" 
-        class="w3-button w3-display-topright">&times;</span>
-        <h5>Cek tagihan</h5>
-      </header>
-            <img src="https://raw.githubusercontent.com/yayanheeh/chat/master/img/paduan.jpg"width="300" height="300"/><br/><img src="https://raw.githubusercontent.com/yayanheeh/chat/master/img/tv.jpg"width="300" height="300"/>
-       </div>
-       
-      </div>
     </div>
 
   </div>
